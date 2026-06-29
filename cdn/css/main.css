@@ -1,0 +1,29 @@
+.pbi-loading-group {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.pbi-loading {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid var(--purrblocks-color-accent-green);
+  border-top-color: var(--purrblocks-color-accent-green);
+  animation: spin 1.2s linear infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.body_light {
+  background-color: var(--purrblocks-color-background-light);
+  color: var(--purrblocks-color-text-light);
+}
+.body_dark {
+  background-color: var(--purrblocks-color-background-dark);
+  color: var(--purrblocks-color-text-dark);
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

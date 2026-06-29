@@ -1,0 +1,1 @@
+document.querySelector('pbi-root').innerHTML = '<pbi-loading-group class="pbi-loading-group"><pbi-loading class="pbi-loading"></pbi-loading></pbi-loading-group>';
